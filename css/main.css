@@ -31,7 +31,7 @@ article {
 
 article h1 {
   font-weight: normal;
-  margin-bottom: .2em;
+  margin-bottom: 0;
 }
 
 article header {
@@ -44,7 +44,7 @@ article p {
 
 article header p {
   font-style: italic;
-  margin-top: .2em;
+  margin-top: 0;
 }
 
 article > p:last-child {
