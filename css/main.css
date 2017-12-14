@@ -20,19 +20,21 @@ html {
 
 article {
   max-width: 43em;
+  font-family: 'Crimson Text', serif;
 }
 
 article h1 {
   font-weight: normal;
+  margin-bottom: .2em;
 }
 
 article header {
   border-bottom: 1px solid #999;
-  margin-bottom: .5em;
 }
 
 article header p {
   font-style: italic;
+  margin-top: .2em;
 }
 
 article > p:last-child {
@@ -43,8 +45,21 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
   color: #999;
+}
+
+ol {
+  padding-left: 1em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  blockquote {
+    display: inline-block;
+    margin-left: 5em;
+  }
 }
