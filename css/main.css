@@ -45,6 +45,7 @@ article p {
 
 blockquote p {
   margin: 0;
+  padding-right: .1em;
 }
 
 article header p {
