@@ -28,6 +28,7 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: .5em;
 }
 
 article header p {
