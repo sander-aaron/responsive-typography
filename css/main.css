@@ -59,7 +59,14 @@ ol {
 @media only screen and (min-width: 38em) {
 
   blockquote {
-    display: inline-block;
-    margin-left: 5em;
+    margin: auto;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
