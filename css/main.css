@@ -40,6 +40,7 @@ article header {
 
 article p {
   padding: .2em;
+  padding-right: .5em;
 }
 
 article header p {
