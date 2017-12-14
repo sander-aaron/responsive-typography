@@ -18,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  padding-left: 1em;
+}
+
 article {
   max-width: 43em;
   font-family: 'Crimson Text', serif;
@@ -38,6 +42,10 @@ article header p {
   margin-top: .2em;
 }
 
+article p {
+  padding: .2em;
+}
+
 article > p:last-child {
   border-bottom: 1px solid #999;
 }
@@ -53,7 +61,7 @@ blockquote {
   color: #999;
 }
 
-ol {
+article ol {
   padding-left: 1em;
 }
 
