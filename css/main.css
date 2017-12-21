@@ -27,6 +27,7 @@ article {
   max-width: 43em;
   font-family: "Crimson Text", serif;
   margin: auto;
+  padding-bottom: 1em;
 }
 
 article h1 {
