@@ -59,6 +59,7 @@ article p:nth-child(3) {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1em;
 }
 
 blockquote {
@@ -70,6 +71,7 @@ blockquote {
 
 .quote {
   color: #999;
+
 }
 
 article ol {
