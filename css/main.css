@@ -52,6 +52,7 @@ blockquote p {
 article header p {
   font-style: italic;
   margin-top: 0;
+  padding-top: 0;
 }
 
 article p:nth-child(3) {
