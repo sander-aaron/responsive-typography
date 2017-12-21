@@ -20,14 +20,15 @@ html {
 
 body {
   margin: 0;
-  padding-left: 1em;
 }
 
 article {
   max-width: 43em;
   font-family: "Crimson Text", serif;
   margin: auto;
-  padding-bottom: 1em;
+  padding-bottom: 1.3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 article h1 {
@@ -37,17 +38,17 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
-  padding-bottom: .2em;
+  padding-bottom: 1.3rem;
+  padding-top: 1.3rem;
+  margin-bottom: 1.3rem;
 }
 
 article p {
-  padding: .21em;
-  padding-right: .9em;
+  margin: 0 0 1.3rem;
 }
 
 blockquote p {
   margin: 0;
-  padding-right: .1em;
 }
 
 article header p {
@@ -56,20 +57,20 @@ article header p {
   padding-top: 0;
 }
 
-article p:nth-child(3) {
-  margin-bottom: .8em;
+/* article p:nth-child(3) { */
+  /* margin-bottom: .8em; */
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 1.5em;
+  padding-bottom: 1.3rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
-  margin: 0;
+  margin: 0 auto 1.3rem;
 }
 
 .quote {
